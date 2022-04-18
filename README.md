@@ -2,8 +2,7 @@
 
 
 Totalmente funcional com o Firebase.
-Feita as verificações necessárias antes de criar a conta.
-Totalmente funcional e com o firebase auth já configurado e funcionando,basta adicionar as suas api keys.
+Feita as verificações necessárias antes de criar a conta e com o firebase auth já configurado e funcionando,basta adicionar as suas api keys.
 
 
 
