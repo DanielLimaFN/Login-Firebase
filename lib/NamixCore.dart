@@ -17,6 +17,7 @@ class EmailCheck {
   }
 }
 
+
 initConfig() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(

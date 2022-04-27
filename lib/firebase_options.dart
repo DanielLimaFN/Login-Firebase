@@ -47,5 +47,6 @@ class DefaultFirebaseOptions {
     storageBucket: 'sSUA-API',
     iosClientId: 'SUA-API',
     iosBundleId: 'com.namix.sst.namix',
+
   );
 }

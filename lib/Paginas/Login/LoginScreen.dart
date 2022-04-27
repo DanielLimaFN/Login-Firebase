@@ -1,6 +1,7 @@
 
 import 'dart:async';
 
+
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:namix/NamixCore.dart';
@@ -176,7 +177,6 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 
 
-  static final validCharacters = RegExp(r"^\s*([A-Za-z]{1,}([\.,] |[-']| ))+[A-Za-z]+\.?\s*$");
 
   checkLogin(TextEditingController email, TextEditingController senha) {
 
