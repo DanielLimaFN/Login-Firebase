@@ -7,7 +7,7 @@
 
 
 
-###Como usar
+### Como usar
 Utilize o comando abaixo para fazer um clone do repositorio.
 ```
 git clone https://github.com/DanielLimaFN/Login-Firebase.git
@@ -19,8 +19,13 @@ Apos baixar abara o seu android studio ou visual studio na pasta do Login-Fireba
 - Repositorio não recebera mais atualização, Codigo feito no começo dos meus estudos em flutter, não representa mais meu estilo de codigo. (Design Pattern não utilizado, e não utlizado codigo limpo.)
 
 
-##Screenshots:
+## Screenshots:
 
 ![](https://camo.githubusercontent.com/b4f672249f67caef04b3a70f2c0df31f27c06d1e20dfd8751127969299f567c5/68747470733a2f2f692e696d6775722e636f6d2f74665972714a4d2e6a7067)
 
 > Tela de login.
+
+
+![](https://camo.githubusercontent.com/25d99123366cc1253547760102172f157192ba461f4de29ff9fe5c67951d2bb6/68747470733a2f2f692e696d6775722e636f6d2f6b427336526d6e2e6a7067)
+
+> Tela de registro.
