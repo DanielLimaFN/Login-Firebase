@@ -221,11 +221,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
           .showSnackBar(SnackBar(content: Text("nome invalido")));
       return false;
     }
-    if (!EmailCheck().isValidEmail(email.text)) {
-      ScaffoldMessenger.of(context)
-          .showSnackBar(SnackBar(content: Text("Email invalido")));
-      return false;
-    }
+
     return true;
   }
 

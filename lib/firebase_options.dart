@@ -30,22 +30,22 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyC5W2GGBLY_g_dps_CYL4KwnLdxSmxzud4',
-    appId: '1:1006579105538:android:5748d824815d27ca4a4c1b',
-    messagingSenderId: '1006579105538',
+    apiKey: 'SUA-API',
+    appId: 'SUA-API',
+    messagingSenderId: 'SUA-API',
     projectId: 'sst-namix',
-    databaseURL: 'https://sst-namix-default-rtdb.firebaseio.com',
-    storageBucket: 'sst-namix.appspot.com',
+    databaseURL: 'SUA-API',
+    storageBucket: 'SUA-API',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDlLm7x-E939Laqzu0pLOZtum8qHc7SIqQ',
-    appId: '1:1006579105538:ios:0e147b8e5b04911e4a4c1b',
-    messagingSenderId: '1006579105538',
-    projectId: 'sst-namix',
-    databaseURL: 'https://sst-namix-default-rtdb.firebaseio.com',
-    storageBucket: 'sst-namix.appspot.com',
-    iosClientId: '1006579105538-qbaka4f187m965o1jlc7g678f4e9bauu.apps.googleusercontent.com',
+    apiKey: 'SUA-API',
+    appId: '1:SUA-API:SUA-API:SUA-API',
+    messagingSenderId: 'SUA-API',
+    projectId: 'sst-SUA-API',
+    databaseURL: 'SUA-API',
+    storageBucket: 'sSUA-API',
+    iosClientId: 'SUA-API',
     iosBundleId: 'com.namix.sst.namix',
   );
 }

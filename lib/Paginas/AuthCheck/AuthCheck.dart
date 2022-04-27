@@ -1,9 +1,4 @@
-
-
-
-
-
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:namix/Paginas/AuthCheck/Auth_Service.dart';
 import 'package:namix/Paginas/Login/LoginScreen.dart';
@@ -15,6 +10,7 @@ class AuthCheck extends StatefulWidget {
   const AuthCheck({Key? key}) : super(key: key);
 
   @override
+  // Usando provider para puxar o status do login
   State<AuthCheck> createState() => _AuthCheckState();
 }
 
@@ -22,6 +18,10 @@ class _AuthCheckState extends State<AuthCheck> {
   @override
   Widget build(BuildContext context) {
     AuthService auth = Provider.of<AuthService>(context);
+
+
+    // Metodo responsavel por verificar se o usuario
+    // ja esta logoda e joga o usuario para tela de login ou a home
 
    if(auth.isLoading) {
      return loading();
@@ -39,7 +39,9 @@ class _AuthCheckState extends State<AuthCheck> {
         ),
       );
     } catch(e) {
-      print(e);
+      if (kDebugMode) {
+        print(e);
+      }
     }
   }
 
